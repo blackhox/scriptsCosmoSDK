@@ -19,12 +19,12 @@ DELAY=3600 #in secs - how often restart the script ;
 ACC_NAME=YourWalleName 
  
  ```bash
-nano restakingRizon.sh
+nano restakingBTSG.sh
 ```
 4. Open the screen or tmux session:
  
  ```bash
-# tmux new-session -s rizonscript
+# tmux new-session -s BTSGscript
 ```
 5. Run auto claiming and delegating rewards:
 
@@ -45,15 +45,15 @@ bash restakingBTSG.sh
 ```
 Даем нужные разрешения
 ```bash
- # chmod +x restakingRizon.sh
+ # chmod +x restakingBTSG.sh
 ```
 Открываем в nano скачанный файл
 ```bash
- # nano restakingRizon.sh
+ # nano restakingBTSG.sh
 ```
 Редактируем файл внося нужные изменения: измените эти параметры: 
- DELEGATOR = 'Ваш адрес делегата: rizon1........'; 
- VALIDATOR = 'Ваш адрес валидатора: rizonvaloper1.......'; 
+ DELEGATOR = 'Ваш адрес делегата: bitsong1........'; 
+ VALIDATOR = 'Ваш адрес валидатора: bitsongvaloper1.......'; 
  PASWD = 'пароль от cli'; 
  ACCNAME = YourWalleName
 
@@ -61,10 +61,10 @@ bash restakingBTSG.sh
  
    Создаем отдельное окно в TMUX для запуска скрипта
 ```bash
-    # tmux new-session -s rizonscript
+    # tmux new-session -s BTSGcript
 ```
    
    Запускаем сам скрипт и расслабляемся
 ```bash
-    # bash restakingRizon.sh
+    # bash restakingBTSG.sh
 ```
