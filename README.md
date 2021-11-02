@@ -3,7 +3,7 @@
 1. Download the script from my repository:
 
 ```bash
-wget https://github.com/blackhox/scriptsCosmoSDK/blob/main/restakingBTSG.sh
+wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingBTSG.sh
 ```
 
 2. Give the permissions to this file:
@@ -41,7 +41,7 @@ bash restakingBTSG.sh
 # ***RUS***  
 Скачиваем скрипт 
 ```bash
- # wget https://github.com/blackhox/scriptsCosmoSDK/blob/main/restakingBTSG.sh 
+ # wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingBTSG.sh
 ```
 Даем нужные разрешения
 ```bash
