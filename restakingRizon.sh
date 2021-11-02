@@ -19,7 +19,7 @@ for (( ;; )); do
         done
 
         BAL=$(rizond query bank balances ${DELEGATOR_ADDRESS} --node ${NODE});
-        # BAL=$(($BAL -100000))
+        BAL=$(($BAL -100000))
         echo -e "BALANCE: ${GREEN_COLOR}${BAL}${WITHOU_COLOR} uatolo\n"
         echo -e "Claim rewards\n"
         echo -e "${PWD}\n${PWD}\n" | rizond tx distribution withdraw-rewards ${VALIDATOR_ADDRESS} --chain-id groot-011 --from ${ACC_NAME} --node ${NODE} --commission -y --fees 1000uatolo
