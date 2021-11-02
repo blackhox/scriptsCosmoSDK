@@ -9,7 +9,7 @@ wget https://github.com/blackhox/scriptsCosmoSDK/blob/main/restakingBTSG.sh
 2. Give the permissions to this file:
 
 ```bash
-chmod +x restakingRizon.sh
+chmod +x restakingBTSG.sh
 ```
 
 3. Edit this script with your credentials -> change these parameters: DELEGATOR='Your delegator address' ;
@@ -29,7 +29,7 @@ nano restakingRizon.sh
 5. Run auto claiming and delegating rewards:
 
  ```bash
-bash restakingRizon.sh
+bash restakingBTSG.sh
 ```
 6. Enjoy it :)
 
