@@ -41,7 +41,7 @@ bash restakingRizon.sh
 # ***RUS***  
 Скачиваем скрипт 
 ```bash
- # wget https://github.com/5PARM1T/scriptsCosmoSDK/blob/main/restakingRizon.sh 
+ # wget https://github.com/blackhox/scriptsCosmoSDK/blob/main/restakingRizon.sh 
 ```
 Даем нужные разрешения
 ```bash
