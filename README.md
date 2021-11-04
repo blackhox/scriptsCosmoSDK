@@ -13,6 +13,10 @@ chmod +x restakingXXX.sh
 ```
 
 ***3. Edit this script with your credentials -> change these parameters:***
+
+ ```bash
+nano restakingXXX.sh
+```
  
 DELEGATOR='Your delegator address' ;
 
@@ -30,10 +34,6 @@ ACC_NAME=YourWalleName
 
 --fees  XXX{token designation}
  
- ```bash
-nano restakingXXX.sh
-```
-
 ***4. Open the screen or tmux session:***
 
      sudo apt install screen
