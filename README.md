@@ -21,7 +21,12 @@ ACC_NAME=YourWalleName
  ```bash
 nano restakingBTSG.sh
 ```
+
 4. Open the screen or tmux session:
+
+     sudo apt install screen
+
+     screen -S BTSGscript
  
  ```bash
 # tmux new-session -s BTSGscript
@@ -32,37 +37,3 @@ nano restakingBTSG.sh
 bash restakingBTSG.sh
 ```
 6. Enjoy it :)
-
-```bash
-.
-.
-.
-```
-# ***RUS***  
-Скачиваем скрипт 
-```bash
- # wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingBTSG.sh
-```
-Даем нужные разрешения
-```bash
- # chmod +x restakingBTSG.sh
-```
-Открываем в nano скачанный файл
-```bash
- # nano restakingBTSG.sh
-```
-Редактируем файл внося нужные изменения: измените эти параметры: 
- DELEGATOR = 'Ваш адрес делегата: bitsong1........'; 
- VALIDATOR = 'Ваш адрес валидатора: bitsongvaloper1.......'; 
- PASWD = 'пароль от cli'; 
- ACCNAME = YourWalleName
-
- Создаем отдельное окно в TMUX для запуска скрипта
-```bash
-    # tmux new-session -s BTSGcript
-```
-   
-   Запускаем сам скрипт и расслабляемся
-```bash
-    # bash restakingBTSG.sh
-```
