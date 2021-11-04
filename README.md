@@ -26,7 +26,7 @@ nano restakingXXX.sh
 
      sudo apt install screen
 
-     screen -S BTSGscript
+     screen -S Autoscript
  
  ```bash
 # tmux new-session -s BTSGscript
