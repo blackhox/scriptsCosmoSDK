@@ -29,7 +29,7 @@ nano restakingXXX.sh
      screen -S Autoscript
  
  ```bash
-# tmux new-session -s BTSGscript
+# tmux new-session -s Autoscript
 ```
 5. Run auto claiming and delegating rewards:
 
