@@ -3,13 +3,13 @@
 1. Download the script from my repository:
 
 ```bash
-wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingRizon.sh
+wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingXXX.sh
 ```
 
 2. Give the permissions to this file:
 
 ```bash
-chmod +x restakingBTSG.sh
+chmod +x restakingXXX.sh
 ```
 
 3. Edit this script with your credentials -> change these parameters: DELEGATOR='Your delegator address' ;
@@ -19,7 +19,7 @@ DELAY=3600 #in secs - how often restart the script ;
 ACC_NAME=YourWalleName 
  
  ```bash
-nano restakingBTSG.sh
+nano restakingXXX.sh
 ```
 
 4. Open the screen or tmux session:
@@ -34,6 +34,6 @@ nano restakingBTSG.sh
 5. Run auto claiming and delegating rewards:
 
  ```bash
-bash restakingBTSG.sh
+bash restakingXXX.sh
 ```
 6. Enjoy it :)
