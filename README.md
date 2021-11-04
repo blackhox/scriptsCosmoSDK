@@ -3,7 +3,7 @@
 1. Download the script from my repository:
 
 ```bash
-wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingBTSG.sh
+wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingRizon.sh
 ```
 
 2. Give the permissions to this file:
