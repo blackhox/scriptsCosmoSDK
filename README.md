@@ -6,7 +6,7 @@
 wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/restakingXXX.sh
 ```
 
-****2. Give the permissions to this file:***
+***2. Give the permissions to this file:***
 
 ```bash
 chmod +x restakingXXX.sh
