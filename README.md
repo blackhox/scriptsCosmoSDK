@@ -55,34 +55,32 @@ bash restakingXXX.sh
 ***1. Download the script from my repository:***
 
 ```bash
-wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/Unjail.sh
+wget https://github.com/blackhox/scriptsCosmoSDK/blob/main/UNjail.sh
 ```
 
 ***2. Give the permissions to this file:***
 
 ```bash
-chmod +x restakingXXX.sh
+chmod +x UNjail.sh
 ```
 
 ***3. Edit this script with your credentials -> change these parameters:***
 
  ```bash
-nano restakingXXX.sh
+nano UNjail.sh
 ```
  
-DELEGATOR='Your delegator address' ;
-
-VALIDATOR='Your validator address' ;
-
 PASWD='pass phrase from cli' ;
 
 DELAY=3600 #in secs - how often restart the script ;
 
 ACC_NAME=YourWalleName 
 
-***Don't forget to change:***
- 
---chain-id
+CHAIN=Name Chain
+
+PROJECT=Binary file name (umeed, evmosd, etc)
+
+TOKEN_NAME=Name ticker (uumee, aphoton, etc)
 
 --fees  XXX{token designation}
  
@@ -98,6 +96,6 @@ ACC_NAME=YourWalleName
 ***5. Run auto claiming and delegating rewards:***
 
  ```bash
-bash restakingXXX.sh
+bash UNjail.sh
 ```
 6. Enjoy it :)
