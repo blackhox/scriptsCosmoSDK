@@ -99,3 +99,44 @@ TOKEN_NAME=Name ticker (uumee, aphoton, etc)
 bash UNjail.sh
 ```
 6. Enjoy it :)
+# Autoping script - auto ping pool Near testnet
+
+***1. Download the script from my repository:***
+
+```bash
+wget https://raw.githubusercontent.com/blackhox/scriptsCosmoSDK/main/pingnNear.sh
+```
+
+***2. Give the permissions to this file:***
+
+```bash
+chmod +x pingnNear.sh
+```
+
+***3. Edit this script with your credentials -> change these parameters:***
+
+ ```bash
+nano pingnNear.sh
+```
+ 
+pool='NAME.pool.f863973.m0' ;
+
+account='Your accountId' ;
+
+DELAY=3600 #in secs - how often restart the script ;
+
+***4. Open the screen or tmux session:***
+
+     sudo apt install screen
+
+     screen -S Autoscript
+ 
+ ```bash
+# tmux new-session -s Autoscript
+```
+***5. Run auto ping***
+
+ ```bash
+bash pingnNear.sh
+```
+6. Enjoy it :)
